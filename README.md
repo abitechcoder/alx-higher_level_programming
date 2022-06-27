@@ -1,2 +1,1 @@
-# alx-higher_level_programming
-Repository for High level programming task
+OXO8. Python - More Classes and Objects
