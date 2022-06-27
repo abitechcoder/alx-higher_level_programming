@@ -1,0 +1,6 @@
+class Rectangle:
+
+    """A empth Rectangle class"""
+
+
+    pass
