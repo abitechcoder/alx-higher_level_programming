@@ -18,6 +18,8 @@ Now use it:
     100
     >>> add_integer(100.3, -2)
     98
+    >>> add_integer(100.3, 50.2)
+    150
     >>> try:
     ...     print(add_integer(4, "School"))
     ... except Exception as e:
@@ -26,6 +28,12 @@ Now use it:
     b must be an integer
     >>> try:
     ...     print(add_integer(None))
+    ... except Exception as e:
+    ...     print(e)
+    ...
+    a must be an integer
+    >>> try:
+    ...     print(add_integer("School", 4))
     ... except Exception as e:
     ...     print(e)
     ...
